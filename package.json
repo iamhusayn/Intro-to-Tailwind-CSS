@@ -1,0 +1,16 @@
+{
+  "name": "frank-tailwind-css",
+  "version": "1.0.0",
+  "description": "Introduction to Tailwind",
+  "main": "npm i -D tailwind",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front":"tailwindcss -i ./frankstyles.css -o ./husayn.css --watch"
+  },
+  "keywords": ["css"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
